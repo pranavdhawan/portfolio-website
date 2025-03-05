@@ -44,7 +44,7 @@ export default function Nav() {
           )
         })}
         <ThemeSwitcher />
-        <Button onClick={() => {window.open('https://drive.google.com/file/d/1nngmNO1CJcnk17xhkugeGgPYvfUSW0aB/view?usp=sharing', '_blank')}}>Resume</Button>
+        <Button onClick={() => {window.open('https://drive.google.com/drive/folders/1SbLXNmcQ3rWGVFpRXo-Ae1t82-tSJ--5?usp=sharing', '_blank')}}>Resume</Button>
 
       </nav>
     </div>
