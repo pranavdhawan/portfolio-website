@@ -6,6 +6,13 @@ const PROJECTS: {
   liveLink: string
 }[] = [
     {
+      name: 'AI based Flipbook',
+      description: 'An interactive flipbook-style website that challenges users to visualize book excerpts before revealing AI- generated imagery.Integrated Gemini AI for image generation and stored results using Neon DB.',
+      liveLink: 'https://ai-flipbook.vercel.app/',
+      previewImage: '/flipbook.png',
+      repoUrl: 'https://github.com/pranavdhawan/ai-flipbook',
+    },
+    {
       name: 'Martin Scorcese Chatbot',
       description: 'RAG chatbot that reflects, digresses, and occasionally rants like a man who’s spent his life chasing truth through cinema.',
       liveLink: '',
