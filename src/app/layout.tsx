@@ -5,6 +5,7 @@ import Nav from '@/components/nav'
 import { ViewTransitions } from 'next-view-transitions'
 import { ThemeProvider } from '@/components/theme-provider'
 const montserrat = Montserrat({ subsets: ['latin'], display: 'swap' })
+import { Analytics } from "@vercel/analytics/react"
 
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function RootLayout({
               {children}
             </div>
           </ThemeProvider>
+          <Analytics />
         </body>
       </html>
     </ViewTransitions>
